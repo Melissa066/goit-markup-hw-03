@@ -9,6 +9,16 @@
 
 }
 
+.container {
+
+    width: 1200px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;

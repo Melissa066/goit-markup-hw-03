@@ -1,3 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.navig {
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+}
+.topdiv {
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+img {
+    display:block;
+}
 :root {
     --brand-color: #FFFFFFFF;
     --blue: #4d5ae5;
@@ -12,6 +39,7 @@
 .container {
 
     width: 1200px;
+    margin: 0;
 }
 
 .section {
@@ -34,15 +62,18 @@ body {
     color: var(--blue);
 }
 
+
 .link {
     text-decoration: none;
 }
 .logo-studio-dark {
     color: var(--dark-blue);
 }
-.list{
+.list {
+
     list-style: none;
 }
+        
 
 .contacts{
     font-style: normal;
@@ -135,9 +166,6 @@ body {
     color: var(--dark-blue);
 }
 
-.add {
-    font-style: normal;
-}
 
 .lastsection{
     background-color: #F4F4FD;

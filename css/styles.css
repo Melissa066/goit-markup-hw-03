@@ -17,6 +17,16 @@
 
 }
 
+.first-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--button-color);
+    border-radius: 4px;
+    cursor: pointer;
+
+}
 .top-head {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -45,7 +55,7 @@ img {
 
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px 0 15px;
+    padding: 0 15px;
 }
 
 .section {
@@ -67,7 +77,7 @@ body {
     text-transform: uppercase;
     color: var(--blue);
     margin-right: 76px;
-    padding: 24px 0;
+    padding: 24px 0 24px 0;
 }
 
 
@@ -131,22 +141,22 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+
+.section-tittle {
+
     max-width: 496px;
 }
 
 .btn {
-    background-color: #4D5AE5;
+    
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
+
 }
 
 .btn:hover{

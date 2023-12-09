@@ -8,18 +8,23 @@
     display:flex;
     margin: 0px;
     padding: 0px;
+    align-items: center;
+    gap: 40px;
 }
 .topdiv {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
 
 }
 
+.top-head {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .top-line {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
 }
 
 img {
@@ -38,8 +43,9 @@ img {
 
 .container {
 
-    width: 1200px;
-    margin: 0;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px 0 15px;
 }
 
 .section {
@@ -60,6 +66,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--blue);
+    margin-right: 76px;
+    padding: 24px 0;
 }
 
 
@@ -114,14 +122,16 @@ body {
 .first {
     color: var(--dark-blue);
     background-color: var(--dark-blue);
+    padding: 188px 0;
 }
 
-.title{
+.tittle{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .btn {
@@ -132,6 +142,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .btn:hover{

@@ -13,11 +13,6 @@
     
 }
 
-.first-logo {
-
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
    
 .topdiv {
     display: flex;
@@ -43,7 +38,6 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding: 24px 0;
 }
 
 img {
@@ -277,19 +271,13 @@ body {
     padding-bottom: 120px;
 }
 
-.visually-hidden {
-
+.hidden-title {
+    visibility: hidden;
+    height: 1px;
+    overflow: hidden;
     position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0, 0, 0, 0);
-        overflow: hidden;
-        
+    white-space: nowrap;
+    width: 1px;
 }
 
 .first-row-list {
@@ -328,7 +316,7 @@ body {
 }
 
 .last-list {
-    display-flex;
+    display: flex;
     gap: 24px;
 }
 
@@ -409,6 +397,12 @@ body {
     margin-bottom: 8px;
 }
 
-.calc {
-    width: calc((2592px - 72px) / 4);
+
+
+.top {
+    padding: 24px 0;
+}
+
+.first-element {
+    width: calc((100% - 3 * 24px) / 4);
 }

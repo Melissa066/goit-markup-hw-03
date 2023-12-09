@@ -77,7 +77,8 @@ body {
     text-transform: uppercase;
     color: var(--blue);
     margin-right: 76px;
-    padding: 24px 0 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -169,20 +170,20 @@ body {
     cursor:pointer;
 }
 
-.titlefour {
+.tittlefour {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-blue);
 }
-.firsttitle {
+.firsttittle {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
 }
 
-.titleh {
+.tittleh {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -210,6 +211,7 @@ body {
 }
 .lastpart{
     background-color: var(--dark-blue);
+    padding: 100px 0;
 }
 
 .description {
@@ -260,4 +262,94 @@ body {
 
 .firstbtn {
     cursor:pointer;
+}
+
+.first-row {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+
+clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    
+}
+
+.first-row-list {
+    display: flex;
+    gap: 24px;
+}
+
+.first-element {
+    width: calc((100% - 72px) / 4);
+}
+
+.tittle-first-element {
+    margin-bottom: 8px;
+}
+
+.third-section {
+    padding-bottom: 120px;
+}
+
+.tittle-second-element {
+    margin-bottom: 72px;
+}
+
+.second-row-list {
+    display: flex;
+    gap: 24px;
+}
+
+.second-element {
+    width: calc((100% - 48px) / 3);
+}
+
+.last-row {
+    padding: 120px 0;
+}
+
+.last-tittle {
+    margin-bottom: 72px;
+}
+
+.last-list {
+    display-flex;
+    gap: 24px;
+}
+
+.last-element {
+    width: calc((100% - 72px) / 4);
+    border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+}
+
+.first-name {
+    padding: 32px 0;
+}
+
+.tittle-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.job {
+    text-align: center;
+}
+
+.logo-st {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.last-decription {
+    max-width: 264px;
 }

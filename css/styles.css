@@ -415,9 +415,4 @@ body {
      clip: rect(0 0 0 0);
      overflow: hidden;
  }
-
-.first-element {
-    
-flex-basis: calc((100% - 72px) / 4)
-
-}
+ 
